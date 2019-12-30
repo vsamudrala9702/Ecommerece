@@ -24,8 +24,6 @@ namespace ECommerece.Controllers
 
         public ActionResult Index()
         {
-            //IProductBusiness iproduct = new ProductBusiness();
-
 
             var count = _iProductBusiness.GetProductCount();
 
