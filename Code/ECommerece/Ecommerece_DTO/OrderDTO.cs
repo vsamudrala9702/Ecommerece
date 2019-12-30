@@ -11,5 +11,6 @@ namespace Ecommerece_DTO
         public int ProductId { set; get; }
         public decimal Amount { set; get; }
         public int PaymentType { set; get; }
+
     }
 }
