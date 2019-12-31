@@ -1,4 +1,5 @@
-﻿using Ecommerece_BAL.Implementation;
+﻿using ECommerece.CustomFilters;
+using Ecommerece_BAL.Implementation;
 using Ecommerece_BAL.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -8,6 +9,7 @@ using System.Web.Mvc;
 
 namespace ECommerece.Controllers
 {
+    [CustomAuthorization]
     public class ManageProductsController : Controller
     {
         //public IProductBusiness iProductBusiness { set; get; }
